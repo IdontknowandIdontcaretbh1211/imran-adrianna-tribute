@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imran & Adrianna Paradžik</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and Page Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f2f5f0; /* Svijetla pozadina u neutralnoj nijansi */
+            color: #4a4a4a;
+            line-height: 1.6;
+        }
+
+        /* Container Styling */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #8b1e3f; /* Tamno crvena boja */
+            padding: 30px 0;
+            border-bottom: 5px solid #4b8b3e; /* Tamno zelena boja */
+        }
+
+        header h1 {
+            font-size: 36px;
+            color: #f1f1f1; /* Svijetla boja za kontrast */
+            font-family: 'Georgia', serif;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #e4d1b9; /* Nježna zlatna nijansa za suptilan kontrast */
+        }
+
+        /* Section Styling */
+        .section {
+            padding: 50px 0;
+            background-color: #ffffff;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #8b1e3f; /* Tamno crvena za naslove */
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #4a4a4a;
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 300px;
+            border-radius: 50%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        /* Tooltip Styling */
+        .tooltip {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -100%);
+            background-color: #4b8b3e;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s, visibility 0s 0.3s;
+            z-index: 10;
+            width: 250px;
+            text-align: center;
+        }
+
+        .tooltip-visible {
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 0.3s;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #8b1e3f; /* Tamno crvena */
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+
+        footer p {
+            font-size: 18px;
+            color: #e4d1b9; /* Nježna zlatna nijansa za footer */
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 28px;
+            }
+
+            header p {
+                font-size: 16px;
+            }
+
+            .section {
+                padding: 30px 0;
+            }
+
+            .container {
+                width: 90%;
+            }
+
+            img {
+                max-width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>For Imran and Adrianna Paradžik</h1>
+            <p>A romantic tribute to two special people</p>
+        </div>
+    </header>
+
+    <section id="romantic-message" class="section">
+        <div class="container">
+            <h2>This page is dedicated to you</h2>
+            <p>Imran and Adrianna, your love and shared journey are an inspiration to many. Your path through life is full of joyful moments, laughter, and love, and we want to share this page as a small gift.</p>
+        </div>
+    </section>
+
+    <section id="imran" class="profile section">
+        <div class="container">
+            <h2>Imran Paradžik</h2>
+            <p>Imran, your smile is a bright moment in every day. Your strength, wisdom, and love for life are incredible.</p>
+            <img src="https://scontent.fsjj1-1.fna.fbcdn.net/v/t1.15752-9/484561854_963369425920111_3623911047395826667_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=cCgttRSxGYAQ7kNvgGxORfg&_nc_oc=AdhZL0YaAuC99vp1pXe3aH8lksY6IcuFWTR526vToeCWuII1iK5sPWvGFBWFedzrGE4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fsjj1-1.fna&oh=03_Q7cD1wE3JX8sJNwiK-g6EA8YuoOzaVOxFwpnOW6oxLV_OPy8RQ&oe=67F951DD" alt="Imran Paradžik">
+        </div>
+    </section>
+
+    <section id="adrianna" class="profile section">
+        <div class="container">
+            <h2>Adrianna Paradžik</h2>
+            <p>Adrianna, your spirit and heart make the world a better place. Your gentleness and love for those around you make everyone feel special.</p>
+            <div class="image-container">
+                <img src="https://scontent.fsjj1-1.fna.fbcdn.net/v/t1.15752-9/482950690_994051036009633_4812085941328069670_n.jpg?stp=dst-jpg_p480x480_tt6&_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=5AIeHR5L3foQ7kNvgF-WNtr&_nc_oc=AdiM1qk9ll30XMykkdJH6Sxe1oVwxSNhDvVvOIYC7vehTiS4-HRjwVVL8jnod0hphJA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fsjj1-1.fna&oh=03_Q7cD1wH5ASrRivmsHDSHFAFTqp8ocPqbQ7tLTqCAhfXBYGnYEQ&oe=67F968D1" alt="Adrianna Paradžik" class="image-with-tooltip">
+                <div class="tooltip">
+                    My beautiful, adorable, sweet, intelligent, smart, cute, kind, charming, freaky wife that I love very very much. She is my everything and she is very dear to me. She is my happiness, my safe place. I love you so much, thank you for everything dear <3.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>With all my love, from Imran Paradžik to his amazing wife, Adrianna Paradžik</p>
+        </div>
+    </footer>
+
+    <script>
+        // Skripte za prikazivanje opisa pri prelasku mišem
+        const images = document.querySelectorAll('.image-with-tooltip');
+        
+        images.forEach(image => {
+            const tooltip = image.nextElementSibling;
+
+            image.addEventListener('mouseenter', () => {
+                tooltip.classList.add('tooltip-visible');
+            });
+
+            image.addEventListener('mouseleave', () => {
+                tooltip.classList.remove('tooltip-visible');
+            });
+        });
+    </script>
+</body>
+</html>
+
